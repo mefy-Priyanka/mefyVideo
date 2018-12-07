@@ -1,0 +1,30 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+input[type="text"] {
+    margin-bottom: 1em;
+    border-radius: 50px;
+    height: 23px;
+    outline: none;
+    border: 1px solid grey;
+    text-indent: 10px;
+}
+button.submit {
+    background: #5900ff;
+    height: 32px;
+    width: 100px;
+    cursor:pointer;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: #fff;
+}

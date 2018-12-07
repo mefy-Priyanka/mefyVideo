@@ -1,0 +1,157 @@
+section.dashboard {
+    overflow: hidden;
+}
+button.acceptIt {
+    margin-right: 2em;
+    background: #4CAF50;
+    outline: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+button.reject {
+    margin-right: 2em;
+    background: #d92b1e;
+    outline: none;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+}
+h1.video {
+    text-align: center;
+    color: #0b0a0b;
+    font-size: 26px;
+    font-weight: 700;
+}
+svg#acceptCall {
+    height: 30px;
+    width: 30px;
+    fill: #fff;
+}
+.videoButton {
+    text-align: center;
+    padding-left: 2em;
+}
+div#borderRight {
+    border-right: 2px solid;
+    height: 100vh;
+}
+p.requestheading {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #525a75;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+}
+span.newheading {
+    color: #3ad87b;
+    margin-right: 9px;
+    font-size: 14px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    margin-left: 22px;
+    text-transform: uppercase;
+}
+section.newrequest {
+    background: #fff;
+}
+.accrej {
+    margin-top: 10px;
+}
+button.accept {
+    height: 25px;
+    width: 25px;
+    border: none;
+    background: transparent;
+    border-radius: 50%;
+    padding: 0;
+}
+svg#accept{
+    height: 25px;
+    width: 25px;
+    fill:rgb(58, 216, 123);
+}
+svg#reject{
+    height: 25px;
+    width: 25px;
+    fill: rgb(240, 45, 80);
+}
+.buttonli li{
+    padding: 0 3px;
+}
+.buttonli {
+    margin-bottom: 0;
+    margin-top: 14px;
+    margin-left: 6px;
+}
+section.greyback {
+    background: #f7f7ff;
+}
+.calendar {
+    padding-top: 25px;
+}
+span.noappointment {
+    display: block;
+    text-align: center;
+    padding-top: 1em;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    font-family: 'Roboto',sans-serif;
+}
+p.doctorname {
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+    color: #8398ac;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.whomwith {
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-bottom: -11px;
+}
+ul.list-inline.timings {
+    margin-bottom: 0;
+}
+.nomargin0row{
+    margin: 0;
+    margin-bottom: 0;
+}
+.nopadding0col{
+    padding: 0;
+}
+.profileimg img {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.profileimg {
+    height: 60px;
+    width: 100%;
+}
+span.gender2 {
+    margin-right: 3px;
+}
+span.gender2::after{
+    content: '';
+    border-right: 1px solid grey;
+    margin-left: 5px;
+}
+p.nameofp {
+    font-size: 14px;
+    color: #525a75;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+p.locgender2 {
+    font-size: 11px;
+    color: #525a75;
+    font-family: lato;
+    font-weight: 600;
+}
